@@ -1,0 +1,10 @@
+body{
+    background-color: rgb(227, 227, 227);
+}
+.main-container{
+    display: flex;
+}
+.search-bar{
+    flex: 1;
+    padding: 10px 30px;
+}

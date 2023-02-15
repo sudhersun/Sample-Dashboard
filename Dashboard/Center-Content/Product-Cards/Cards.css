@@ -1,0 +1,109 @@
+:root{
+    --primay: #618EF6;
+    --secondary: #292D32;
+    --teritery: #F7F9FD;
+}
+.card-container{
+    margin-top: 20px;
+}
+.card-header{
+    display: flex;
+    justify-content: space-between;
+}
+.card-1{
+    background-color: whitesmoke;
+    display: inline-block;
+    padding: 20px 15px;
+    border-radius: 16px;
+    margin-top: 20px;
+    height: 10%;
+}
+.card-1>img{
+    width: 10rem;
+    height: 10rem;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.151);
+    margin-bottom: 10px;
+}
+.card-body-header>p{
+    font-size: 15px;
+}
+.card-body-header>small{
+    font-size: 12px;
+    color: rgb(129, 129, 158);
+}
+.card-body{
+    display: flex;
+}
+.card-button{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.card-button>button{
+    background-color: var(--primay);
+    color: white;
+    height: 25px;
+    width: 25px;
+    padding: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 2px 2px 10px rgba(25, 2, 129, 0.322);
+    cursor: pointer;
+}
+.card-list{
+    display: flex;
+    justify-content: space-between;
+}
+.card-2{
+    background-color: whitesmoke;
+    display: inline-block;
+    padding: 20px 15px;
+    border-radius: 16px;
+    margin-top: 20px;
+    height: 10%;
+}
+.card-2>img{
+    width: 10rem;
+    height: 10rem;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.151);
+    margin-bottom: 10px;
+}
+.card-3{
+    background-color: whitesmoke;
+    display: inline-block;
+    padding: 20px 15px;
+    border-radius: 16px;
+    margin-top: 20px;
+    height: 10%;
+}
+.card-3>img{
+    width: 10rem;
+    height: 10rem;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.151);
+    margin-bottom: 10px;
+}
+.card-4{
+    background-color: whitesmoke;
+    display: inline-block;
+    padding: 20px 15px;
+    border-radius: 16px;
+    margin-top: 20px;
+    height: 10%;
+}
+.card-4>img{
+    width: 10rem;
+    height: 10rem;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.151);
+    margin-bottom: 10px;
+}

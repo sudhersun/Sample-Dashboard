@@ -1,0 +1,48 @@
+:root{
+    --primay: #618EF6;
+    --secondary: #292D32;
+    --teritery: #F7F9FD;
+}
+.ads-main-container{
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.text-container>h2{
+    letter-spacing: 2px;
+}
+.text-container>h3{
+    color: gray;
+}
+.text-container>p{
+    margin-top: 3%;
+    color: rgb(165, 164, 164);
+}
+.img-container>img{
+    width: 20rem;
+}
+.text-btn{
+    margin-top: 8%;
+}
+.text-btn .btn-buy{
+    border: none;
+    background-color: var(--primay);
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    width: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.text-btn .btn-learn{
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(247, 245, 245);
+    color: var(--secondary);
+    font-weight: bold;
+    padding: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+}

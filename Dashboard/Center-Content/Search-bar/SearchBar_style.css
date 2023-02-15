@@ -1,0 +1,32 @@
+:root{
+    --primay: #618EF6;
+    --secondary: #292D32;
+    --teritery: #F7F9FD;
+}
+.input-icon{
+    margin: 10px;
+    display: flex;
+}
+.input-field{
+    position: relative;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+}
+.input-field>input{
+    position: absolute;
+}
+.search-icon{
+    position: absolute;
+    z-index: 1;
+    margin: 10px;
+    color: rgb(98, 98, 98);
+    /* border: 1px solid ; */
+}
+.cart-icon{
+    background-color: white;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+}

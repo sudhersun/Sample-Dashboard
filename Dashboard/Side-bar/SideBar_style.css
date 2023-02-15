@@ -1,0 +1,83 @@
+:root {
+    --primay: #618EF6;
+    --secondary: #292D32;
+    --teritery: #F7F9FD;
+}
+
+.sideBar-container {
+    background-color: rgb(248, 244, 244);
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+    box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.141);
+    width: 220px;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.sideBar-heading {
+    display: flex;
+    justify-content: center;
+}
+
+.sideBar-heading>img {
+    height: 5rem;
+}
+
+.sideBar_menu {
+    text-align: center;
+}
+
+.sideBar_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.sideBar_item .icon {
+    margin-right: 20px;
+    padding: 6px;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: white;
+    color: #929394;
+}
+
+.sideBar_item #active {
+    background-color: var(--primay);
+    color: var(--teritery);
+}
+
+#drone {
+    font-weight: bold;
+    color: black;
+}
+
+.sideBar_link {
+    color: #929394;
+    text-decoration: none;
+}
+
+.sideBar_list {
+    border-bottom: 1px solid #929394;
+
+    margin: 0;
+    padding: 0;
+
+}
+
+.logout_btn {
+    background-color: transparent;
+    border: none;
+    margin-top: 6rem;
+    font-weight: bold;
+    font-size: 16px;
+    color: #444545;
+    cursor: pointer;
+}
+
+.logout_icon {
+    color: #444545;
+    margin-left: 30px;
+}
